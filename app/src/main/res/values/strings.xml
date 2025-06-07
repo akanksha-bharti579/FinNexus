@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinNexus</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="statistics">Statistics</string>
+    <string name="profile">Profile</string>
+    <string name="customers">Customers</string>
+    <string name="reports">Reports</string>
+    <string name="administration">Administration</string>
+    <string name="manage_your_finances">Manage your finances</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome Back!</string>
+    <string name="good_morning">Good Morning!</string>
+    <string name="good_afternoon">Good Afternoon!</string>
+    <string name="good_evening">Good Evening!</string>
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="budget_progress">Budget Progress</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="view_all">View All</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="days_left">%1$d days left</string>
+    <string name="daily_budget">%1$s/day left</string>
+    
+    <!-- History Screen -->
+    <string name="expense_history">Expense History</string>
+    <string name="all_expenses">All Expenses</string>
+    <string name="today_s_expenses">Today\'s Expenses</string>
+    <string name="this_week_s_expenses">This Week\'s Expenses</string>
+    <string name="this_month_s_expenses">This Month\'s Expenses</string>
+    
+    <!-- Stats Screen -->
+    <string name="monthly_trend">Monthly Trend</string>
+    <string name="category_distribution">Category Distribution</string>
+    <string name="expense_summary">Expense Summary</string>
+    <string name="highest_expense">Highest Expense</string>
+    <string name="average_daily">Average Daily</string>
+    <string name="top_category">Top Category</string>
+    <string name="filters">Filters</string>
+    <string name="period">Period:</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="filter_by_tag">Filter by Tag:</string>
+    <string name="refresh">Refresh</string>
+    <string name="expense_trend">Expense Trend</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="top_tag_expenses">Top Tag Expenses</string>
+    <string name="no_tag_data">No tag data available</string>
+    
+    <!-- Add Expense Screen -->
+    <string name="amount">Amount</string>
+    <string name="vendor_name">Vendor Name</string>
+    <string name="description">Description</string>
+    <string name="select_date">Select Date</string>
+    <string name="category">Category</string>
+    <string name="recurring_expense">Recurring Expense</string>
+    <string name="recurring_type">Recurring Type</string>
+    <string name="notes">Notes</string>
+    <string name="tags">Tags</string>
+    <string name="tags_hint">Enter tags separated by commas</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Profile Screen -->
+    <string name="personal_info">Personal Information</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="currency">Currency</string>
+    <string name="settings">Settings</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="data_management">Data Management</string>
+    <string name="export_data">Export Data</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="view_profile">View Profile</string>
+    <string name="theme">Theme</string>
+    <string name="close">Close</string>
+    <string name="profile_preview">Profile Preview</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    
+    <!-- Common -->
+    <string name="currency_symbol">₹</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="total">Total</string>
+    <string name="back">Back</string>
+    <string name="expense_details">Expense Details</string>
+    <string name="basic_info">Basic Information</string>
+    <string name="vendor">Vendor</string>
+    <string name="date">Date</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="delete_expense_confirmation">Are you sure you want to delete this expense?</string>
+    
+    <!-- Notification Channels -->
+    <string name="channel_reminders_name">Reminders</string>
+    <string name="channel_reminders_description">Daily expense tracking reminders</string>
+    <string name="channel_budget_alerts_name">Budget Alerts</string>
+    <string name="channel_budget_alerts_description">Alerts when you exceed your budget</string>
+
+    <!-- Biometric Authentication -->
+    <string name="biometric_title">Biometric Authentication</string>
+    <string name="biometric_subtitle">Verify your identity</string>
+    <string name="biometric_description">Please authenticate using your fingerprint or face to access the app</string>
+    <string name="biometric_negative_button">Cancel</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="select_theme">Select Theme</string>
+    
+    <!-- Biometric Settings -->
+    <string name="enable_biometric_authentication">Enable Biometric Authentication</string>
+    <string name="disable_biometric_authentication">Disable Biometric Authentication</string>
+    <string name="biometric_enabled">Biometric authentication enabled</string>
+    <string name="biometric_disabled">Biometric authentication disabled</string>
+    <string name="biometric_error">Authentication error: %1$s</string>
+    <string name="biometric_not_available">Biometric authentication not available on this device</string>
+    
+    <!-- Notification Settings -->
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="enable_budget_alerts">Enable Budget Alerts</string>
+    <string name="daily_reminder_time">Daily Reminder Time</string>
+    <string name="set_time">Set Time</string>
+    <string name="notification_settings_saved">Notification settings saved</string>
+    
+    <!-- Data Management -->
+    <string name="data_exported">Data exported successfully</string>
+    <string name="no_data_to_export">No data to export</string>
+    <string name="clear_data_confirmation">Are you sure you want to clear all expense data? This action cannot be undone.</string>
+    <string name="confirm">Confirm</string>
+    <string name="data_cleared">All data cleared successfully</string>
+
+    <!-- Tags and Notes -->
+    <string name="popular_tags">Popular Tags</string>
+    <string name="notes_hint">Add notes about this expense…</string>
+
+    <!-- Tag Filtering -->
+    <string name="filter_by_tags">Filter by Tags</string>
+    <string name="clear_filter">Clear Filter</string>
+
+    <!-- Budget Dialog -->
+    <string name="enter_amount">Enter amount</string>
+    
+    <!-- Customers Report -->
+    <string name="customers_report">Customers Report</string>
+    <string name="search_customers">Search customers</string>
+    <string name="no_customers_found">No customers found</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="more_options">More options</string>
+    <string name="customer_details">Customer Details: %1$s</string>
+    <string name="placeholder_transactions">%1$d transactions</string>
+    
+    <!-- Administration -->
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Restore Data</string>
+    <string name="export_to_csv">Export to CSV</string>
+    <string name="user_management">User Management</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="app_settings">App Settings</string>
+    
+    <!-- Help and Support -->
+    <string name="help_and_support">Help &amp; Support</string>
+    <string name="help_subtitle">Find answers to common questions about using the app</string>
+    <string name="expand">Expand</string>
+    <string name="need_more_help">Need more help?</string>
+    <string name="contact_support_message">If you couldn\'t find an answer to your question, please contact our support team.</string>
+    <string name="email_support">Email Support</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="help_request_subject">Help request from FinNexus app</string>
+    <string name="send_email">Send email</string>
+    
+    <!-- Help Topics -->
+    <string name="help_topic_getting_started">Getting Started</string>
+    <string name="help_content_getting_started">Welcome to FinNexus! This app helps you track your expenses, manage your budget, and analyze your spending habits.\n\nTo get started, add your first expense by tapping the + button on the home screen. You can categorize expenses, add tags, and even set recurring expenses.\n\nUse the bottom navigation to access different sections of the app: Home, History, Statistics, and Profile.</string>
+    
+    <string name="help_topic_adding_expenses">Adding Expenses</string>
+    <string name="help_content_adding_expenses">To add a new expense:\n\n1. Tap the + button on the home screen\n2. Enter the amount\n3. Select a category\n4. Add optional details like vendor name, description, and tags\n5. Set the date (defaults to today)\n6. Toggle \"Recurring Expense\" if this is a regular payment\n7. Tap Save\n\nYou can edit or delete expenses later from the History screen.</string>
+    
+    <string name="help_topic_budget_management">Budget Management</string>
+    <string name="help_content_budget_management">Setting a monthly budget helps you keep track of your spending limits:\n\n1. Go to the Home screen\n2. Tap \"Set Budget\"\n3. Enter your monthly budget amount\n4. Tap Save\n\nThe app will show your progress throughout the month with a visual indicator on the home screen. You\'ll also see your daily budget allowance based on the remaining days in the month.</string>
+    
+    <string name="help_topic_reports">Reports &amp; Statistics</string>
+    <string name="help_content_reports">The Statistics screen provides visual insights into your spending habits:\n\n• Monthly trend shows your spending pattern over time\n• Category distribution shows where your money goes\n• Expense summary shows key metrics like highest expense and daily average\n\nYou can filter statistics by date range or by specific tags to analyze particular aspects of your spending.</string>
+    
+    <string name="help_topic_customers">Managing Customers</string>
+    <string name="help_content_customers">If you\'re using the app for business expenses, you can manage customers:\n\n1. Open the navigation drawer and tap Customers\n2. View all your customers in one place\n3. Tap + to add a new customer\n4. Tap on a customer to view their details\n5. Use the options menu to edit or delete customers\n\nYou can search for specific customers using the search bar at the top.</string>
+    
+    <string name="help_topic_data_backup">Data Backup &amp; Export</string>
+    <string name="help_content_data_backup">Keep your data safe by backing it up regularly:\n\n1. Go to Administration in the navigation drawer\n2. Tap \"Backup Data\" to save your data\n3. Use \"Restore Data\" to recover from a backup\n4. Export to CSV to create spreadsheet-compatible files\n\nWe recommend backing up your data before updating the app or changing devices.</string>
+    
+    <string name="help_topic_privacy">Privacy &amp; Security</string>
+    <string name="help_content_privacy">Your financial data is important, and we take security seriously:\n\n• All data is stored locally on your device\n• Enable biometric authentication for added security\n• Backups are encrypted for your protection\n• We don\'t collect or share your expense data\n\nYou can review our full privacy policy on our website.</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_addExpense"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_home_to_budget"
+            app:destination="@id/budgetFragment" />
+        <action
+            android:id="@+id/action_home_to_expenseDetail"
+            app:destination="@id/expenseDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_history_to_expenseDetail"
+            app:destination="@id/expenseDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.BudgetFragment"
+        android:label="@string/monthly_budget"
+        tools:layout="@layout/fragment_budget" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.StatsFragment"
+        android:label="@string/statistics"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.AddExpenseFragment"
+        android:label="@string/add_expense"
+        tools:layout="@layout/fragment_add_expense" />
+
+    <fragment
+        android:id="@+id/expenseDetailFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.ExpenseDetailFragment"
+        android:label="@string/expense_history"
+        tools:layout="@layout/fragment_expense_detail">
+        <argument
+            android:name="expenseId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.AuthFragment"
+        android:label="@string/biometric_authentication"
+        tools:layout="@layout/fragment_auth" />
+
+    <fragment
+        android:id="@+id/customersReportFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.CustomersReportFragment"
+        android:label="@string/customers_report"
+        tools:layout="@layout/fragment_customers_report" />
+
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.AdminFragment"
+        android:label="@string/administration"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.akanksha.expensecalculator.ui.fragments.HelpFragment"
+        android:label="@string/help_and_support"
+        tools:layout="@layout/fragment_help" />
+
+</navigation> 
